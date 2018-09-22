@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.baidu.bce:bce-internal-sdk-palo:-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baidu/bce/bce-internal-sdk-palo/-SNAPSHOT/bce-internal-sdk-palo--SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baidu/bce/bce-internal-sdk-palo/-SNAPSHOT/bce-internal-sdk-palo--SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/baidu/bce/bce-internal-sdk-palo/-SNAPSHOT/bce-internal-sdk-palo--SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

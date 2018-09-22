@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/testForNews.iml" filepath="$PROJECT_DIR$/.idea/testForNews.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testGuava/testGuava.iml" filepath="$PROJECT_DIR$/testGuava/testGuava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testGuice/testGuice.iml" filepath="$PROJECT_DIR$/testGuice/testGuice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testJett/testJett.iml" filepath="$PROJECT_DIR$/testJett/testJett.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testJson/testJson.iml" filepath="$PROJECT_DIR$/testJson/testJson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testOrdinary/testOrdinary.iml" filepath="$PROJECT_DIR$/testOrdinary/testOrdinary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testThread/testThread.iml" filepath="$PROJECT_DIR$/testThread/testThread.iml" />
+    </modules>
+  </component>
+</project>
