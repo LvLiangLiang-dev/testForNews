@@ -15,14 +15,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="testForNews" target="1.5" />
-      <module name="testGuava" target="1.5" />
-      <module name="testGuice" target="1.5" />
-      <module name="testJett" target="1.8" />
       <module name="testJetty2" target="1.5" />
-      <module name="testJson" target="8" />
-      <module name="testOrdinary" target="7" />
-      <module name="testThread" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

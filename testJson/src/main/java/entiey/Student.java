@@ -1,5 +1,7 @@
 package entiey;
 
+import com.google.gson.annotations.Expose;
+
 import java.util.Arrays;
 
 /**
@@ -7,6 +9,7 @@ import java.util.Arrays;
  */
 public class Student {
     // @SerializedName("NAME")
+    @Expose
     private String name;
     private double age;
     private String birthday;

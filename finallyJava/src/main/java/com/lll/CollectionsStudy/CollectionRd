@@ -1,0 +1,6 @@
+stack:
+    empty()
+    peek()
+    pop()
+    push()
+

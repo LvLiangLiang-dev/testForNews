@@ -1,0 +1,54 @@
+话费终极数据_李_814.csv 属性清单
+user_bil_final8.month_id 账期,
+user_bil_final8.acc_num 手机号码,
+user_bil_final8.prod_inst_id 电信id,
+user_bil_final8.act_date 生效时间,（就是入网时间，这个很重要）嘿嘿。
+user_bil_final8.payment_mode_cd 付费模式,
+user_bil_final8.status_cd 产品实例状态,
+user_bil_final8.prov_id 省份,
+user_bil_final8.is_realname 是否实名制,
+user_bil_final8.age 年份,
+user_bil_final8.sex 性别,
+user_bil_final8.label,
+user_bil_final8.amount 出账金额,
+user_bil_final8.price 单价,
+user_bil_final8.month_face_subsidy 当月实际补贴金额,
+user_bil_final8.call_duration 通话时长,
+user_bil_final8.call_type_b 被叫次数,
+user_bil_final8.call_type_z 主叫次数,
+user_bil_final8.cfee 基本通话费,
+user_bil_final8.lfee 长途通话费
+
+
+
+835data_李第一次第二个有流量和短信数据.csv 属性清单
+835_new_验证_李_第二次用来验证模型.csv 属性清单
+month_id,
+acc_num,
+prod_inst_id,
+act_date,
+payment_mode_cd,
+status_cd,prov_id,
+day_id,cust_type,
+enter_date,
+party_id,
+is_realname,
+age,sex,label,
+charge,amount,
+price,
+month_face_subsidy,
+subsidy_mode,
+call_duration,
+call_type_b,
+call_type_z,
+cfee,lfee,
+call_duration_s,
+recv_bytes,用户下载流量
+send_bytes,用户上传流量
+con_bank, 银行短信
+con_cmcc 电信短信
+
+
+
+yexin1 data_analysis_user
+

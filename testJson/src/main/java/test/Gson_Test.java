@@ -38,7 +38,9 @@ public class Gson_Test {
     @Test
     public void r1(){
         Gson gson = new Gson();
-        System.out.println(gson.toJson(student));
+        String toJson = gson.toJson(student);
+
+        System.out.println(gson.toJson(student).toString());
     }
 
     @Test
@@ -88,7 +90,8 @@ public class Gson_Test {
 
         String abs = Student.class.getClassLoader().getResource("demo.json").getFile();
         String content = FileUtils.readFileToString(new File(abs), StandardCharsets.UTF_8);
-
+        System.out.println("abs: "+abs);
+        System.out.println("content: "+content);
         StudentWithList student = gson.fromJson(content, StudentWithList.class);//
         System.out.println(student.getMajor());
         System.out.println(student.getMajor().getClass());

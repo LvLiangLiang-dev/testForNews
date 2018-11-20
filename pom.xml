@@ -15,6 +15,7 @@
         <module>testGuava</module>
         <module>testOrdinary</module>
         <module>testJett</module>
+        <module>finallyJava</module>
     </modules>
     <dependencies>
         <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
