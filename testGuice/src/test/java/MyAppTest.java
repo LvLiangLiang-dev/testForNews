@@ -1,10 +1,15 @@
+import javax.inject.Named;
+
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import com.google.inject.Guice;
+import com.google.inject.Inject;
 import com.google.inject.Injector;
 
 import Impl.PersonCaller;
+import Impl.TempSingal1;
+import Impl.TestFactory;
 import entity.Application;
 import entity.Temp;
 import module.MyAppMoudle;
@@ -52,4 +57,26 @@ public class MyAppTest {
         personCaller.doStudent();
         personCaller.doTeacher();
     }
+
+//    @Inject @Named("NAME")
+//    private TempSingal1 tempSingal1;
+
+
+
+    @Test
+    public void testMoreImpl11(){
+//        TempSingal1 instance = inject.getInstance(TempSingal1.class);
+//        tempSingal1.work();
+        TestFactory instance = inject.getInstance(TestFactory.class);
+        TempSingal1 tempSingal1 = instance.create(" xx");
+        tempSingal1.work();
+    }
+
+//    @Test
+//    public void testMoreImpl11(){
+//        //        TempSingal1 instance = inject.getInstance(TempSingal1.class);
+//        //        tempSingal1.work();
+//        TempSingal1 instance = inject.getInstance(TempSingal1.class);
+//        instance.work();
+//    }
 }

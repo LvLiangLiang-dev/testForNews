@@ -4,6 +4,7 @@ import javax.inject.Named;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.Inject;
+import com.google.inject.assistedinject.FactoryModuleBuilder;
 import com.google.inject.name.Names;
 
 import Impl.LogServiceImpl;
@@ -11,6 +12,8 @@ import Impl.MyApp;
 import Impl.Student;
 import Impl.Teacher;
 import Impl.TempImpl;
+import Impl.TempSingal1;
+import Impl.TestFactory;
 import Impl.UserServiceImpl;
 import entity.Application;
 import entity.LogService;
@@ -36,5 +39,12 @@ public class MyAppMoudle extends AbstractModule {
 
         bind(Person.class).annotatedWith(Names.named("teacher")).to(Teacher.class);
         bind(Person.class).annotatedWith(Names.named("student")).to(Student.class);
+
+
+        bind(String.class).annotatedWith(Names.named("NAME")).toInstance("fuck");
+        install(new FactoryModuleBuilder()
+                .implement(TempSingal1.class, TempSingal1.class)
+                .build(TestFactory.class));
+
     }
 }
